@@ -108,7 +108,7 @@ class Hershey(inkex.Effect):
                 for line_counter, line in enumerate(ins):
                     w = 0
                     line = line.rstrip()
-                    v = spacing * (15*line_counter - 67 )
+                    v = spacing * (12*line_counter - 67 )
                     letterVals = [ord(q) - 32 for q in line]
                     for q in letterVals:
                         if (q < 0) or (q > 95):
